@@ -1,0 +1,17 @@
+module clock_divider (
+    input wire clk,
+    output reg update_pulse
+);
+    localparam UPDATE_INTERVAL = 24'd5_000_000;
+    reg [23:0] counter;
+    
+    always @(posedge clk) begin
+        if (counter >= UPDATE_INTERVAL - 1) begin
+            counter <= 0;
+            update_pulse <= 1'b1;
+        end else begin
+            counter <= counter + 1;
+            update_pulse <= 1'b0;
+        end
+    end
+endmodule

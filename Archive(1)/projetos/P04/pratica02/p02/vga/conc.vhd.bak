@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity concatenador is
+    Port (
+        a : in  STD_LOGIC_VECTOR(9 downto 0);
+        b : in  STD_LOGIC_VECTOR(9 downto 0);
+        y : out STD_LOGIC_VECTOR(19 downto 0)
+    );
+end concatenador;
+
+architecture Behavioral of concatenador is
+begin
+    y <= a & b;
+end Behavioral;

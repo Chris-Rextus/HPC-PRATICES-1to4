@@ -1,0 +1,20 @@
+module LifeToVGAMono2 (
+    input [4095:0] grid,
+    input [9:0] pixel_row,
+    input [9:0] pixel_column,
+    output reg pixel_out,
+    output reg pixel_enable
+);
+    wire [5:0] col_index = pixel_column / 10;
+    wire [5:0] row_index = pixel_row / 7;
+
+    always @(*) begin
+        if (pixel_column < 640 && pixel_row < 448) begin
+            pixel_enable = 1'b1;
+            pixel_out = grid[row_index*64 + col_index];
+        end else begin
+            pixel_enable = 1'b0;
+            pixel_out = 1'b0;
+        end
+    end
+endmodule

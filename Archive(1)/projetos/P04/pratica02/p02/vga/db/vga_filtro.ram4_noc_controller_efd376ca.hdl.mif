@@ -1,0 +1,27 @@
+-- begin_signature
+-- noc_controller
+-- end_signature
+WIDTH=3;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	010;
+	14 :	010;
+	13 :	010;
+	12 :	010;
+	11 :	010;
+	10 :	010;
+	9 :	010;
+	8 :	010;
+	7 :	010;
+	6 :	010;
+	5 :	010;
+	4 :	010;
+	3 :	000;
+	2 :	010;
+	1 :	010;
+	0 :	010;
+END;

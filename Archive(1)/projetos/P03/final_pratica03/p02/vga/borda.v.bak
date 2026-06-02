@@ -1,0 +1,13 @@
+module xor9 (
+    input  [2:0] in1,
+    input  [2:0] in2,
+    input  [2:0] in3,
+    output       out
+);
+
+    wire [8:0] all_bits;
+
+    assign all_bits = {in1, in2, in3};
+    assign out = ^all_bits;  // reduction XOR
+
+endmodule

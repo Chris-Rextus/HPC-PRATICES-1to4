@@ -1,0 +1,6 @@
+
+State Machine - |vga_filtro|gol_grid:inst6|state
+Name state.LOAD state.RUN state.DISPLAY 
+state.LOAD 0 0 0 
+state.DISPLAY 1 0 1 
+state.RUN 1 1 0 

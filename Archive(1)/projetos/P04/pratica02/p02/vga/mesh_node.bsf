@@ -1,0 +1,225 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 216 352)
+	(text "mesh_node" (rect 5 0 52 12)(font "Arial" ))
+	(text "inst" (rect 8 320 20 332)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 20 12)(font "Arial" ))
+		(text "clock" (rect 21 27 41 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "hop1_addr[3..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "hop1_addr[3..0]" (rect 21 43 82 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "hop2_addr[3..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "hop2_addr[3..0]" (rect 21 59 83 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "hop3_addr[3..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "hop3_addr[3..0]" (rect 21 75 83 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "hop4_addr[3..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "hop4_addr[3..0]" (rect 21 91 84 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "din_entry" (rect 0 0 37 12)(font "Arial" ))
+		(text "din_entry" (rect 21 107 58 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "hop1_max" (rect 0 0 41 12)(font "Arial" ))
+		(text "hop1_max" (rect 21 123 62 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "hop2_max" (rect 0 0 42 12)(font "Arial" ))
+		(text "hop2_max" (rect 21 139 63 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "hop3_max" (rect 0 0 42 12)(font "Arial" ))
+		(text "hop3_max" (rect 21 155 63 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "hop4_max" (rect 0 0 43 12)(font "Arial" ))
+		(text "hop4_max" (rect 21 171 64 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "din_n" (rect 0 0 21 12)(font "Arial" ))
+		(text "din_n" (rect 21 187 42 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "din_s" (rect 0 0 21 12)(font "Arial" ))
+		(text "din_s" (rect 21 203 42 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "din_e" (rect 0 0 21 12)(font "Arial" ))
+		(text "din_e" (rect 21 219 42 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "din_w" (rect 0 0 22 12)(font "Arial" ))
+		(text "din_w" (rect 21 235 43 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "vin_n" (rect 0 0 22 12)(font "Arial" ))
+		(text "vin_n" (rect 21 251 43 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "vin_s" (rect 0 0 22 12)(font "Arial" ))
+		(text "vin_s" (rect 21 267 43 279)(font "Arial" ))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "vin_e" (rect 0 0 22 12)(font "Arial" ))
+		(text "vin_e" (rect 21 283 43 295)(font "Arial" ))
+		(line (pt 0 288)(pt 16 288)(line_width 1))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "vin_w" (rect 0 0 23 12)(font "Arial" ))
+		(text "vin_w" (rect 21 299 44 311)(font "Arial" ))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "dout_n" (rect 0 0 27 12)(font "Arial" ))
+		(text "dout_n" (rect 152 27 179 39)(font "Arial" ))
+		(line (pt 200 32)(pt 184 32)(line_width 1))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "dout_s" (rect 0 0 27 12)(font "Arial" ))
+		(text "dout_s" (rect 152 43 179 55)(font "Arial" ))
+		(line (pt 200 48)(pt 184 48)(line_width 1))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "dout_e" (rect 0 0 27 12)(font "Arial" ))
+		(text "dout_e" (rect 152 59 179 71)(font "Arial" ))
+		(line (pt 200 64)(pt 184 64)(line_width 1))
+	)
+	(port
+		(pt 200 80)
+		(output)
+		(text "dout_w" (rect 0 0 28 12)(font "Arial" ))
+		(text "dout_w" (rect 151 75 179 87)(font "Arial" ))
+		(line (pt 200 80)(pt 184 80)(line_width 1))
+	)
+	(port
+		(pt 200 96)
+		(output)
+		(text "vout_n" (rect 0 0 28 12)(font "Arial" ))
+		(text "vout_n" (rect 151 91 179 103)(font "Arial" ))
+		(line (pt 200 96)(pt 184 96)(line_width 1))
+	)
+	(port
+		(pt 200 112)
+		(output)
+		(text "vout_s" (rect 0 0 28 12)(font "Arial" ))
+		(text "vout_s" (rect 151 107 179 119)(font "Arial" ))
+		(line (pt 200 112)(pt 184 112)(line_width 1))
+	)
+	(port
+		(pt 200 128)
+		(output)
+		(text "vout_e" (rect 0 0 28 12)(font "Arial" ))
+		(text "vout_e" (rect 151 123 179 135)(font "Arial" ))
+		(line (pt 200 128)(pt 184 128)(line_width 1))
+	)
+	(port
+		(pt 200 144)
+		(output)
+		(text "vout_w" (rect 0 0 29 12)(font "Arial" ))
+		(text "vout_w" (rect 150 139 179 151)(font "Arial" ))
+		(line (pt 200 144)(pt 184 144)(line_width 1))
+	)
+	(port
+		(pt 200 160)
+		(output)
+		(text "dout_final" (rect 0 0 37 12)(font "Arial" ))
+		(text "dout_final" (rect 142 155 179 167)(font "Arial" ))
+		(line (pt 200 160)(pt 184 160)(line_width 1))
+	)
+	(parameter
+		"MY_ADDR"
+		"0000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 184 320)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 216 -64 316 16))
+)

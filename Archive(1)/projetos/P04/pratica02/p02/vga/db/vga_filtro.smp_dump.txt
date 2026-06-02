@@ -1,0 +1,6 @@
+
+State Machine - |vga_filtro|noc_controller:inst2|state
+Name state.ST_IDLE state.ST_DATA state.ST_CFG 
+state.ST_IDLE 0 0 0 
+state.ST_CFG 1 0 1 
+state.ST_DATA 1 1 0 

@@ -1,0 +1,23 @@
+module gol_grid (
+    input clk,
+    input reset,
+    input update_pulse,
+    input [63:0][63:0] init_grid,
+    output reg [63:0][63:0] current_grid
+);
+    wire [63:0][63:0] next_grid;
+
+    gol_update u0 (
+        .clk(clk),
+        .update_pulse(update_pulse),
+        .current_grid(current_grid),
+        .next_grid(next_grid)
+    );
+
+    always @(posedge clk) begin
+        if (reset)
+            current_grid <= init_grid;
+        else if (!update_pulse)
+            current_grid <= next_grid;
+    end
+endmodule

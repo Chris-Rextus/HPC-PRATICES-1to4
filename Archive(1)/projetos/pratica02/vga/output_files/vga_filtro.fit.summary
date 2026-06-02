@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Apr 13 11:19:52 2026
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : vga_filtro
+Top-level Entity Name : vga_filtro
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 45 / 41,910 ( < 1 % )
+Total registers : 123
+Total pins : 9 / 499 ( 2 % )
+Total virtual pins : 0
+Total block memory bits : 35,308 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 5 / 553 ( < 1 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )
