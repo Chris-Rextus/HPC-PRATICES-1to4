@@ -1,0 +1,88 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{brazil}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introdução}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Fundamentação Teórica}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}Autômatos Celulares e o Jogo da Vida}{1}{subsubsection.1.1.1}\protected@file@percent }
+\newlabel{eq:regras}{{1}{2}{Autômatos Celulares e o Jogo da Vida}{equation.1}{}}
+\newlabel{eq:vizinhos}{{2}{2}{Autômatos Celulares e o Jogo da Vida}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Padrão Inicial: Canhão de Planadores de Gosper}{2}{subsubsection.1.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Representação da Grade em Hardware}{2}{subsubsection.1.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.4}Divisão de Clock e Controle de Velocidade}{2}{subsubsection.1.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.5}Mapeamento da Grade para o Monitor VGA}{3}{subsubsection.1.1.5}\protected@file@percent }
+\newlabel{eq:mapeamento}{{3}{3}{Mapeamento da Grade para o Monitor VGA}{equation.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.6}Carregamento de Padrão por ROM}{3}{subsubsection.1.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Objetivos}{3}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Metodologia}{4}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Desenvolvimento Teórico}{4}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Análise das Regras do Jogo da Vida em Hardware}{4}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:hw_rule}{{4}{4}{Análise das Regras do Jogo da Vida em Hardware}{equation.4}{}}
+\newlabel{eq:hw_rule_simplified}{{5}{4}{Análise das Regras do Jogo da Vida em Hardware}{equation.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Condições de Fronteira}{4}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Arquitetura de Atualização: Paralelismo Massivo vs. Pipeline}{5}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Sincronismo entre Atualização da Grade e Varredura VGA}{5}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Mapeamento de Escala para VGA}{5}{subsection.2.5}\protected@file@percent }
+\newlabel{eq:escala_h}{{6}{6}{Mapeamento de Escala para VGA}{equation.6}{}}
+\newlabel{eq:escala_v}{{7}{6}{Mapeamento de Escala para VGA}{equation.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Desenvolvimento Prático}{6}{section.3}\protected@file@percent }
+\newlabel{sec:pratico}{{3}{6}{Desenvolvimento Prático}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Ambiente de Desenvolvimento}{6}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Especificações do ambiente de desenvolvimento.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:ambiente}{{1}{6}{Especificações do ambiente de desenvolvimento}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Estrutura Geral do Projeto e Diagrama de Blocos}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Diagrama BDF do módulo \textit  {top-level} \texttt  {vga\_filtro} no Quartus Prime, evidenciando a interligação de todos os componentes do sistema do Jogo da Vida.}}{7}{figure.1}\protected@file@percent }
+\newlabel{fig:top_bdf}{{1}{7}{Diagrama BDF do módulo \textit {top-level} \texttt {vga\_filtro} no Quartus Prime, evidenciando a interligação de todos os componentes do sistema do Jogo da Vida}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Módulo \texttt  {GameOfLife2} --- Núcleo do Autômato Celular}{7}{subsection.3.3}\protected@file@percent }
+\newlabel{lst:gameoflife}{{1}{8}{\texttt {GameOfLife2.v} --- Núcleo do autômato celular com suporte a reset, carregamento de ROM e atualização paralela da grade 64$\times $64}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}\texttt  {GameOfLife2.v} --- Núcleo do autômato celular com suporte a reset, carregamento de ROM e atualização paralela da grade 64$\times $64.}{8}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Módulo \texttt  {LifeToVGAMono2} --- Mapeamento Grade para VGA}{10}{subsection.3.4}\protected@file@percent }
+\newlabel{lst:lifetovga}{{2}{10}{\texttt {LifeToVGAMono2.v} --- Mapeamento combinacional da grade 64$\times $64 para o quadro VGA 640$\times $480}{lstlisting.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}\texttt  {LifeToVGAMono2.v} --- Mapeamento combinacional da grade 64$\times $64 para o quadro VGA 640$\times $480.}{10}{lstlisting.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Módulo \texttt  {clock\_divider} --- Divisor de Clock}{11}{subsection.3.5}\protected@file@percent }
+\newlabel{lst:clockdiv}{{3}{11}{\texttt {clock\_divider.v} --- Divisor de clock para controle de velocidade de evolução do autômato}{lstlisting.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}\texttt  {clock\_divider.v} --- Divisor de clock para controle de velocidade de evolução do autômato.}{11}{lstlisting.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Módulo \texttt  {button\_pulse} --- Detector de Pulso por Botão}{12}{subsection.3.6}\protected@file@percent }
+\newlabel{lst:btnpulse}{{4}{12}{\texttt {button\_pulse.v} --- Detector de borda de descida para geração de pulso manual de atualização}{lstlisting.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}\texttt  {button\_pulse.v} --- Detector de borda de descida para geração de pulso manual de atualização.}{12}{lstlisting.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Módulo \texttt  {pulse\_mux} --- Seleção de Modo de Atualização}{13}{subsection.3.7}\protected@file@percent }
+\newlabel{lst:pulsemux}{{5}{13}{\texttt {pulse\_mux.v} --- Seleção entre modo de atualização automático e manual}{lstlisting.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}\texttt  {pulse\_mux.v} --- Seleção entre modo de atualização automático e manual.}{13}{lstlisting.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Módulo \textit  {Top-Level} \texttt  {vga\_filtro}}{13}{subsection.3.8}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Mapeamento de entradas de controle da placa DE1.}}{13}{table.2}\protected@file@percent }
+\newlabel{tab:controles}{{2}{13}{Mapeamento de entradas de controle da placa DE1}{table.2}{}}
+\newlabel{lst:top}{{6}{13}{\texttt {vga\_filtro.v} --- Módulo \textit {top-level} gerado pelo editor BDF do Quartus Prime, integrando todos os componentes do sistema}{lstlisting.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}\texttt  {vga\_filtro.v} --- Módulo \textit  {top-level} gerado pelo editor BDF do Quartus Prime, integrando todos os componentes do sistema.}{13}{lstlisting.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Diagrama BDF do Módulo \texttt  {GameOfLife2} no \textit  {Top-Level}}{16}{subsection.3.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama BDF mostrando a instância do módulo \texttt  {GameOfLife2} no \textit  {top-level}, com suas conexões de clock, reset, pulso de atualização, ROM e saída da grade.}}{17}{figure.2}\protected@file@percent }
+\newlabel{fig:gameoflife_bdf}{{2}{17}{Diagrama BDF mostrando a instância do módulo \texttt {GameOfLife2} no \textit {top-level}, com suas conexões de clock, reset, pulso de atualização, ROM e saída da grade}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.10}Diagrama BDF do Módulo \texttt  {VGA\_SYNC} no \textit  {Top-Level}}{17}{subsection.3.10}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Diagrama BDF do controlador \texttt  {VGA\_SYNC} no \textit  {top-level}, evidenciando as saídas de sincronismo horizontal e vertical, pixel clock, coordenadas de varredura e sinal \texttt  {video\_on}.}}{17}{figure.3}\protected@file@percent }
+\newlabel{fig:vga_sync_bdf}{{3}{17}{Diagrama BDF do controlador \texttt {VGA\_SYNC} no \textit {top-level}, evidenciando as saídas de sincronismo horizontal e vertical, pixel clock, coordenadas de varredura e sinal \texttt {video\_on}}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.11}Diagrama BDF da Memória ROM}{18}{subsection.3.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama BDF do módulo \texttt  {rom} no Quartus Prime, com entrada de clock e endereço de 15 bits, e saída de dado de 1 bit por ciclo.}}{18}{figure.4}\protected@file@percent }
+\newlabel{fig:rom_bdf}{{4}{18}{Diagrama BDF do módulo \texttt {rom} no Quartus Prime, com entrada de clock e endereço de 15 bits, e saída de dado de 1 bit por ciclo}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussão dos Resultados}{18}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comportamento do Canhão de Planadores de Gosper}{18}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Estado do Jogo da Vida de Conway exibido no monitor VGA durante execução na placa DE1, com o Canhão de Planadores de Gosper como padrão \textit  {hardcoded} (\texttt  {SW[0] = 1}). Células vivas aparecem em branco e células mortas em preto.}}{19}{figure.5}\protected@file@percent }
+\newlabel{fig:game_example}{{5}{19}{Estado do Jogo da Vida de Conway exibido no monitor VGA durante execução na placa DE1, com o Canhão de Planadores de Gosper como padrão \textit {hardcoded} (\texttt {SW[0] = 1}). Células vivas aparecem em branco e células mortas em preto}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Paralelismo Massivo e Implicações para Síntese}{20}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Controle de Velocidade e Interação com o Usuário}{20}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Mapeamento VGA e Qualidade Visual}{20}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Demonstração em Vídeo}{21}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusões}{21}{section.5}\protected@file@percent }
+\bibcite{conway}{1}
+\bibcite{gosper}{2}
+\bibcite{lifeWiki}{3}
+\bibcite{embarcados1}{4}
+\bibcite{embarcados2}{5}
+\bibcite{quartus}{6}
+\bibcite{roteiro6}{7}
+\bibcite{patterson}{8}
+\bibcite{thomas}{9}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Referências Bibliográficas}{22}{section.6}\protected@file@percent }
+\gdef \@abspage@last{24}

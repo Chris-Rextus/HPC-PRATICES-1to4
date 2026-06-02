@@ -1,0 +1,56 @@
+==============================================
+        MONTE CARLO PI ESTIMATION
+==============================================
+
+Number of points (n): 50000000
+----------------------------------------------
+Estimated Values of Pi:
+Vectorized  : 3.1418851200
+Serial      : 3.1418276800
+Parallel    : 3.1415651200
+MATLAB Pi   : 3.1415926536
+----------------------------------------------
+Absolute Errors:
+Vectorized  : 2.9246641021e-04
+Serial      : 2.3502641021e-04
+Parallel    : 2.7533589793e-05
+----------------------------------------------
+Execution Times (seconds):
+Vectorized  : 1.218285 s
+Serial      : 3.218121 s
+Parallel    : 2.832684 s
+----------------------------------------------
+Speedup (relative to Serial):
+Vectorized  : 2.64 x faster
+Parallel    : 1.14 x faster
+==============================================
+>>
+
+==============================================
+        LEIBNIZ PI ESTIMATION
+==============================================
+
+Number of terms (n): 50000000
+----------------------------------------------
+Estimated Values of Pi:
+Vectorized  : 3.1415926336
+Serial      : 3.1415926336
+Parallel    : 3.1415926336
+MATLAB Pi   : 3.1415926536
+----------------------------------------------
+Absolute Errors:
+Vectorized  : 1.9999913725e-08
+Serial      : 1.9999542467e-08
+Parallel    : 1.9999999878e-08
+----------------------------------------------
+Execution Times (seconds):
+Vectorized  : 0.848006 s
+Serial      : 0.716534 s
+Parallel    : 0.763460 s
+----------------------------------------------
+Speedup (relative to Serial):
+Vectorized  : 0.84 x faster
+Parallel    : 0.94 x faster
+==============================================
+Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click here.
+>>

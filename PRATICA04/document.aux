@@ -1,0 +1,93 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{brazil}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introdução}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Fundamentação Teórica}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}Redes \textit  {Mesh} e Roteamento XY}{1}{subsubsection.1.1.1}\protected@file@percent }
+\citation{dally}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Endereçamento dos Nós}{2}{subsubsection.1.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mapeamento de endereços para a \textit  {mesh} 4$\times $4.}}{2}{table.1}\protected@file@percent }
+\newlabel{tab:enderecos}{{1}{2}{Mapeamento de endereços para a \textit {mesh} 4$\times $4}{table.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Filtro Sal e Pimenta}{2}{subsubsection.1.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.4}Concatenador de Endereços para ROM}{2}{subsubsection.1.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.5}Máscara de Janela}{3}{subsubsection.1.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Objetivos}{3}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Metodologia}{3}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Desenvolvimento Teórico}{4}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Topologia da Rede \textit  {Mesh} 4$\times $4}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Roteamento XY na Implementação}{4}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:go_s}{{1}{4}{Roteamento XY na Implementação}{equation.1}{}}
+\newlabel{eq:go_n}{{2}{4}{Roteamento XY na Implementação}{equation.2}{}}
+\newlabel{eq:go_e}{{3}{4}{Roteamento XY na Implementação}{equation.3}{}}
+\newlabel{eq:go_w}{{4}{4}{Roteamento XY na Implementação}{equation.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Cadeia de Processamento e Seleção de Modo}{5}{subsection.2.3}\protected@file@percent }
+\newlabel{eq:pe_out}{{5}{5}{Cadeia de Processamento e Seleção de Modo}{equation.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Configurações de Roteamento Disponíveis}{5}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Sincronismo e Clock Gated}{5}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Desenvolvimento Prático}{6}{section.3}\protected@file@percent }
+\newlabel{sec:pratico}{{3}{6}{Desenvolvimento Prático}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Ambiente de Desenvolvimento}{6}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Especificações do ambiente de desenvolvimento.}}{6}{table.2}\protected@file@percent }
+\newlabel{tab:ambiente}{{2}{6}{Especificações do ambiente de desenvolvimento}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Estrutura Geral do Projeto e Diagrama de Blocos}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Diagrama BDF do módulo \textit  {top-level} \texttt  {vga\_filtro} no Quartus Prime, evidenciando a interligação de todos os componentes do sistema de filtragem de imagem via rede \textit  {mesh} 4$\times $4.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:top_bdf}{{1}{6}{Diagrama BDF do módulo \textit {top-level} \texttt {vga\_filtro} no Quartus Prime, evidenciando a interligação de todos os componentes do sistema de filtragem de imagem via rede \textit {mesh} 4$\times $4}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Módulo \texttt  {concatenador} --- Formação do Endereço de ROM}{7}{subsection.3.3}\protected@file@percent }
+\newlabel{lst:concat}{{1}{7}{\texttt {concatenador.vhd} --- Concatenação de coordenadas de pixel para endereçamento da ROM de imagem}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}\texttt  {concatenador.vhd} --- Concatenação de coordenadas de pixel para endereçamento da ROM de imagem.}{7}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Módulo \texttt  {mascara\_janela} --- Delimitação da Região Ativa}{8}{subsection.3.4}\protected@file@percent }
+\newlabel{lst:mascara}{{2}{8}{\texttt {mascara\_janela.vhd} --- Geração do sinal de máscara para delimitação da região ativa de processamento}{lstlisting.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}\texttt  {mascara\_janela.vhd} --- Geração do sinal de máscara para delimitação da região ativa de processamento.}{8}{lstlisting.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Módulo \texttt  {modulo\_sal\_e\_pimenta} --- Núcleo de Processamento}{9}{subsection.3.5}\protected@file@percent }
+\newlabel{lst:salp}{{3}{9}{\texttt {modulo\_sal\_e\_pimenta.v} --- Núcleo de processamento do filtro sal e pimenta com janela $3\times 3$ sobre fluxo serial de pixels}{lstlisting.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}\texttt  {modulo\_sal\_e\_pimenta.v} --- Núcleo de processamento do filtro sal e pimenta com janela $3\times 3$ sobre fluxo serial de pixels.}{9}{lstlisting.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Módulo \texttt  {mesh\_node} --- Nó Elementar da Rede}{11}{subsection.3.6}\protected@file@percent }
+\newlabel{lst:node}{{4}{11}{\texttt {mesh\_node.v} --- Nó elementar da rede \textit {mesh} com roteador XY e núcleo de processamento de filtro sal e pimenta}{lstlisting.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}\texttt  {mesh\_node.v} --- Nó elementar da rede \textit  {mesh} com roteador XY e núcleo de processamento de filtro sal e pimenta.}{11}{lstlisting.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Módulo \texttt  {mesh\_4x4} --- Interligação da Rede}{13}{subsection.3.7}\protected@file@percent }
+\newlabel{lst:mesh4x4}{{5}{14}{\texttt {mesh\_4x4.v} --- Estrutura de interligação dos 16 nós da rede \textit {mesh} 4$\times $4, com fiação completa de dados e sinais de validade}{lstlisting.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}\texttt  {mesh\_4x4.v} --- Estrutura de interligação dos 16 nós da rede \textit  {mesh} 4$\times $4, com fiação completa de dados e sinais de validade.}{14}{lstlisting.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Módulo \texttt  {noc\_controller} --- Configuração do Caminho Ativo}{20}{subsection.3.8}\protected@file@percent }
+\newlabel{lst:noc}{{6}{20}{\texttt {noc\_controller.v} --- Controlador estático do caminho de processamento da NoC, com três configurações de roteamento disponíveis}{lstlisting.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}\texttt  {noc\_controller.v} --- Controlador estático do caminho de processamento da NoC, com três configurações de roteamento disponíveis.}{20}{lstlisting.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Módulo \textit  {Top-Level} \texttt  {vga\_filtro}}{22}{subsection.3.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Mapeamento de entradas de controle da placa DE1.}}{22}{table.3}\protected@file@percent }
+\newlabel{tab:controles}{{3}{22}{Mapeamento de entradas de controle da placa DE1}{table.3}{}}
+\newlabel{lst:top}{{7}{22}{\texttt {vga\_filtro.v} --- Módulo \textit {top-level} gerado pelo editor BDF do Quartus Prime, integrando todos os componentes do sistema de filtragem via \textit {mesh}}{lstlisting.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7}\texttt  {vga\_filtro.v} --- Módulo \textit  {top-level} gerado pelo editor BDF do Quartus Prime, integrando todos os componentes do sistema de filtragem via \textit  {mesh}.}{22}{lstlisting.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.10}Diagramas BDF dos Componentes}{26}{subsection.3.10}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama BDF do módulo \texttt  {rom} no Quartus Prime, com clock gated, endereço de 15 bits e saída de 1 bit por ciclo.}}{26}{figure.2}\protected@file@percent }
+\newlabel{fig:rom_bdf}{{2}{26}{Diagrama BDF do módulo \texttt {rom} no Quartus Prime, com clock gated, endereço de 15 bits e saída de 1 bit por ciclo}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Diagrama BDF do controlador \texttt  {VGA\_SYNC} no \textit  {top-level}, evidenciando as saídas de sincronismo, pixel clock, coordenadas de varredura e sinal \texttt  {video\_on}.}}{27}{figure.3}\protected@file@percent }
+\newlabel{fig:vga_bdf}{{3}{27}{Diagrama BDF do controlador \texttt {VGA\_SYNC} no \textit {top-level}, evidenciando as saídas de sincronismo, pixel clock, coordenadas de varredura e sinal \texttt {video\_on}}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Diagrama BDF dos módulos \texttt  {mux\_img} no \textit  {top-level}, responsáveis pela seleção da imagem exibida no VGA a partir das chaves \texttt  {SW[0]} e \texttt  {SW[1]}.}}{28}{figure.4}\protected@file@percent }
+\newlabel{fig:mux_bdf}{{4}{28}{Diagrama BDF dos módulos \texttt {mux\_img} no \textit {top-level}, responsáveis pela seleção da imagem exibida no VGA a partir das chaves \texttt {SW[0]} e \texttt {SW[1]}}{figure.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussão dos Resultados}{28}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comportamento do Filtro Sal e Pimenta via Rede \textit  {Mesh}}{28}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Imagem filtrada pela rede \textit  {mesh} com configuração 1 (coluna vertical: n10 $\to $ n11 $\to $ n12 $\to $ n13), exibida no monitor VGA com \texttt  {SW[1:0] = 00}. O ruído impulsivo é removido com preservação das estruturas binárias originais.}}{29}{figure.5}\protected@file@percent }
+\newlabel{fig:comb1}{{5}{29}{Imagem filtrada pela rede \textit {mesh} com configuração 1 (coluna vertical: n10 $\to $ n11 $\to $ n12 $\to $ n13), exibida no monitor VGA com \texttt {SW[1:0] = 00}. O ruído impulsivo é removido com preservação das estruturas binárias originais}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Imagem filtrada pela rede \textit  {mesh} com configuração 2 (grupo no topo em L: n00 $\to $ n01 $\to $ n11 $\to $ n12), exibida no monitor VGA com \texttt  {SW[1:0] = 00}. O resultado é visualmente equivalente ao da configuração 1.}}{29}{figure.6}\protected@file@percent }
+\newlabel{fig:comb2}{{6}{29}{Imagem filtrada pela rede \textit {mesh} com configuração 2 (grupo no topo em L: n00 $\to $ n01 $\to $ n11 $\to $ n12), exibida no monitor VGA com \texttt {SW[1:0] = 00}. O resultado é visualmente equivalente ao da configuração 1}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Imagem filtrada pela rede \textit  {mesh} com configuração 3 diagonal ativa (n11 $\to $ n12 $\to $ n22 $\to $ n23), exibida no monitor VGA com \texttt  {SW[1:0] = 00}. A equivalência com as configurações anteriores confirma a corretude do roteamento XY para diferentes topologias de caminho.}}{30}{figure.7}\protected@file@percent }
+\newlabel{fig:comb3}{{7}{30}{Imagem filtrada pela rede \textit {mesh} com configuração 3 diagonal ativa (n11 $\to $ n12 $\to $ n22 $\to $ n23), exibida no monitor VGA com \texttt {SW[1:0] = 00}. A equivalência com as configurações anteriores confirma a corretude do roteamento XY para diferentes topologias de caminho}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Flexibilidade de Configuração da NoC}{30}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Clock Gating e Sincronismo com o VGA}{30}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Latência do Caminho de Processamento}{31}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Demonstração em Vídeo}{31}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusões}{31}{section.5}\protected@file@percent }
+\bibcite{dally}{1}
+\bibcite{benini}{2}
+\bibcite{gonzalez}{3}
+\bibcite{embarcados1}{4}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Referências Bibliográficas}{32}{section.6}\protected@file@percent }
+\bibcite{embarcados2}{5}
+\bibcite{quartus}{6}
+\bibcite{roteiro7}{7}
+\bibcite{patterson}{8}
+\bibcite{thomas}{9}
+\gdef \@abspage@last{34}

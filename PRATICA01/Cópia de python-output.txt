@@ -1,0 +1,65 @@
+==================================================
+        MONTE CARLO PI ESTIMATION
+==================================================
+
+Number of samples (n): 5000000
+
+Estimated Pi:
+Vectorized  : 3.1418352000
+Serial      : 3.1413848000
+Parallel    : 3.1398528000
+Reference   : 3.1415926536
+
+Absolute Errors:
+Vectorized  : 2.43e-04
+Serial      : 2.08e-04
+Parallel    : 1.74e-03
+
+Execution Time (s):
+Vectorized  : 0.171605
+Serial      : 21.562387
+Parallel    : 0.148784
+
+Speedup (vs Serial):
+Vectorized  : 125.65x
+Parallel    : 144.92x
+==================================================
+Running n = 1000 ...
+Running n = 5000 ...
+Running n = 10000 ...
+Running n = 50000 ...
+Running n = 100000 ...
+Running n = 500000 ...
+
+==================================================
+        LEIBNIZ PI ESTIMATION
+==================================================
+
+Number of samples (n): 500000
+
+Estimated Pi:
+Vectorized  : 3.1415906536
+Serial      : 3.1415906536
+Parallel    : 3.1415906536
+Reference   : 3.1415926536
+
+Absolute Errors:
+Vectorized  : 2.00e-06
+Serial      : 2.00e-06
+Parallel    : 2.00e-06
+
+Execution Time (s):
+Vectorized  : 0.062679
+Serial      : 0.136493
+Parallel    : 0.053370
+
+Speedup (vs Serial):
+Vectorized  : 2.18x
+Parallel    : 2.56x
+==================================================
+Running n = 1000 ...
+Running n = 5000 ...
+Running n = 10000 ...
+Running n = 50000 ...
+Running n = 100000 ...
+Running n = 500000 ...
